@@ -12,12 +12,14 @@ SERVER_URLS = [
     "https://openapi-cn.growatt.com/",  # Chinese server
     "https://openapi-us.growatt.com/",  # North American server
     "http://server.smten.com/",  # smten server
+    "https://server.pvbutler.com/", # pvbutler
 ]
 
 DEPRECATED_URLS = [
     "https://server.growatt.com/",
     "https://server-api.growatt.com/",
     "https://server-us.growatt.com/",
+    "https://server.pvbutler.com/",
 ]
 
 DEFAULT_URL = SERVER_URLS[0]
